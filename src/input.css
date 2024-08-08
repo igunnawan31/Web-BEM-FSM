@@ -30,7 +30,7 @@ body {
 }
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-white;
+    @apply w-[30px] h-[2px] my-2 block bg;
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -43,4 +43,16 @@ body {
 
 .hamburger-active > span:nth-child(3) {
     @apply origin-bottom-left -rotate-45;
+}
+
+.underline-orange::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: #FF8C00;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    z-index: -99;
 }
