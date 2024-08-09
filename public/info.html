@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 mt-2 lg:px-8">
+        <div class="container py-2">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#">
+                        <img src="assets/logo_bem_fsm.png" alt="Logo BEM" class="block w-16 h-16">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button"
+                    class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out "></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" 
+                    class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] 
+                    w-full right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none
+                    lg:bg-transparent">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#Home" class="text-base text-black py-2 mx-8
+                                flex group-hover:text-blue-500">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#About" class="text-base text-black py-2 mx-8
+                                flex group-hover:text-blue-500">Tentang Kami</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Division" class="text-base text-black py-2 mx-8
+                                flex group-hover:text-blue-500">Divisi</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Information" class="text-base text-black py-2 mx-8
+                                flex group-hover:text-blue-500">Informasi</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Section Informasi Start -->
+
+    <section id="informasi" class="pt-20 mt-10 pb-10">
+        <div class="w-full h-full">
+            <div class="pt-10 mb-10">
+                <div class="font-bold text-center text-4xl md:text-5xl uppercase">
+                    <h1 class="text-primary">Informasi</h1>
+                    <h1 class="text-primary"><span class="text-[#ED8720]">-</span>Seputar FSM<span class="text-[#ED8720]">-</span></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Informasi - Post Start -->
+    <section id="informasi-post" class="pt-20 pb-14 bg-primary">
+        <div class="font-bold text-center text-4xl md:text-5xl mb-14">
+            <h1 class="text-white uppercase"><span class="text-[#ED8720]">-</span> Informasi Terbaru <span class="text-[#ED8720]">-</span></h1>
+        </div>
+        <div class="container mx-auto px-6 font-Poppins sm:flex
+        sm:flex-wrap sm:gap-6 sm: justify-evenly">
+            <div class="rounded-lg shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-60 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-visible mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>    
+            </div>
+            
+        </div>
+        
+        <div class="pt-10 flex justify-center items-center">
+            <a href="#" class="text-primary font-bold bg-white py-3 px-8 hover:shadow-lg hover:bg-primary hover:text-white transition duration-300 shadow-lg 
+            ease-in-out hover:border-2 hover:border-white overflow-hidden">
+                Selengkapnya
+            </a>
+        </div>
+    </section>
+    <!-- Section Informasi - Post End -->
+
+    <!-- Section Kemahasiswaan - Post Start -->
+    <section id="kemahasiswaan-post" class="pt-20 pb-14">
+        <div class="font-bold text-center text-4xl md:text-5xl mb-14">
+            <h1 class="text-primary uppercase"><span class="text-[#ED8720]">-</span> Kemahasiswaan <span class="text-[#ED8720]">-</span></h1>
+        </div>
+        <div class="container mx-auto px-6 font-Poppins sm:flex
+        sm:flex-wrap sm:gap-6 sm: justify-evenly">
+            <div class="rounded-lg shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-60 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-visible mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>    
+            </div>
+            
+        </div>
+        
+        <div class="pt-10 flex justify-center items-center">
+            <a href="#" class="text-white font-bold bg-primary py-3 px-8 hover:shadow-lg hover:bg-white hover:text-primary transition duration-300 shadow-lg 
+            ease-in-out hover:border-2 hover:border-primary overflow-hidden">
+                Selengkapnya
+            </a>
+        </div>
+    </section>
+    <!-- Section Kemahasiswaan - Post End -->
+
+    <!-- Section Karir dan Profesi - Post Start -->
+    <section id="karir-post" class="pt-20 pb-14 bg-primary">
+        <div class="font-bold text-center text-4xl md:text-5xl mb-14">
+            <h1 class="text-white uppercase"><span class="text-[#ED8720]">-</span> Karir dan Profesi <span class="text-[#ED8720]">-</span></h1>
+        </div>
+        <div class="container mx-auto px-6 font-Poppins sm:flex
+        sm:flex-wrap sm:gap-6 sm: justify-evenly">
+            <div class="rounded-lg shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-60 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-visible mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>    
+            </div>
+            
+        </div>
+        
+        <div class="pt-10 flex justify-center items-center">
+            <a href="#" class="text-primary font-bold bg-white py-3 px-8 hover:shadow-lg hover:bg-primary hover:text-white transition duration-300 shadow-lg 
+            ease-in-out hover:border-2 hover:border-white overflow-hidden">
+                Selengkapnya
+            </a>
+        </div>
+    </section>
+    <!-- Section Karir dan Profesi - Post End -->
+
+    <!-- Section Beasiswa - Post Start -->
+    <section id="Beasiswa" class="pt-20 pb-14">
+        <div class="font-bold text-center text-4xl md:text-5xl mb-14">
+            <h1 class="text-primary uppercase"><span class="text-[#ED8720]">-</span> Beasiswa <span class="text-[#ED8720]">-</span></h1>
+        </div>
+        <div class="container mx-auto px-6 font-Poppins sm:flex
+        sm:flex-wrap sm:gap-6 sm: justify-evenly">
+            <div class="rounded-lg shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-60 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-visible mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>    
+            </div>
+            
+        </div>
+        
+        <div class="pt-10 flex justify-center items-center">
+            <a href="#" class="text-white font-bold bg-primary py-3 px-8 hover:shadow-lg hover:bg-white hover:text-primary transition duration-300 shadow-lg 
+            ease-in-out hover:border-2 hover:border-primary overflow-hidden">
+                Selengkapnya
+            </a>
+        </div>
+    </section>
+    <!-- Section Kemahasiswaan - Post End -->
+
+    <!-- Section Administrasi - Post Start -->
+    <section id="administrasi-post" class="pt-20 pb-14 bg-primary">
+        <div class="font-bold text-center text-4xl md:text-5xl mb-14">
+            <h1 class="text-white uppercase"><span class="text-[#ED8720]">-</span> Administrasi <span class="text-[#ED8720]">-</span></h1>
+        </div>
+        <div class="container mx-auto px-6 font-Poppins sm:flex
+        sm:flex-wrap sm:gap-6 sm: justify-evenly">
+            <div class="rounded-lg shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-60 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-visible mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>
+                
+            </div>
+            <div class="rounded-md shadow-lg overflow-hidden mb-10
+            sm:w-64 bg-transparent md:w-80 lg:w-72 opacity-65 hover:opacity-100 ease-in-out transition duration-300">
+                <img src="assets/contoh_postingan.png" alt="GambarContoh"
+                class="w-full"/>    
+            </div>
+            
+        </div>
+        
+        <div class="pt-10 flex justify-center items-center">
+            <a href="#" class="text-primary font-bold bg-white py-3 px-8 hover:shadow-lg hover:bg-primary hover:text-white transition duration-300 shadow-lg 
+            ease-in-out hover:border-2 hover:border-white overflow-hidden">
+                Selengkapnya
+            </a>
+        </div>
+    </section>
+    <!-- Section Karir dan Profesi - Post End -->
+
+    <!-- Section Contact Start -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#121026" fill-opacity="1" d="M0,288L48,266.7C96,245,192,203,288,192C384,181,480,203,576,176C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+    <section id="Footer" class="pt-20" style="background-color: #121026">
+        <div class="container mx-auto py-14 px-6">
+            <!-- <div class="grid md:grid-cols-12 grid-cols-1 gap-7">
+                <div class="lg:col-span-4 col-span-12">
+                    <div class="relative mb-10 lg:mb-0">
+                        <div class="w-[10rem] h-[10rem] rounded-full shadow-lg bg-white group relative overflow-visible">
+                            <img src="assets/riung.png" alt="Riung Mandala" class="object-cover w-full h-full rounded-full">
+                        </div>
+                    </div>
+                    <p class="mt-6 text-slate-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia obcaecati accusantium harum laboriosam dicta eveniet beatae non voluptates ex.</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- Section Contact End -->
+        
+
+    <script src="js/script.js">
+
+    </script>
+    
+</body>
+</html>
